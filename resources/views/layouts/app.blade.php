@@ -32,8 +32,10 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    @if(Route::has('login'))
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
+                        @auth
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                ¿Qué quieres reforzar hoy? <span class="caret"></span>
@@ -48,7 +50,7 @@
                                 </a>
                             </div>
                         </li>
-              
+                        
                
                     <li class="nav-item navegacion-item">
                         <a class="nav-link" href="{{url('/home')}}">Consejos</a>
@@ -56,9 +58,10 @@
                     <li class="nav-item navegacion-item">
                         <a class="nav-link" href="{{url('/home')}}">Comentarios</a>
                     </li>
-                    
+                    @endauth
+                    @endif 
                 </ul>
-
+                
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
