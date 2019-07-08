@@ -12,5 +12,6 @@ class RoleUserTableSeeder extends Seeder
     public function run()
     {
         //
+        DB::insert('insert into role_user (user_id, role_id) values (?, ?)', [1,1]);
     }
 }
