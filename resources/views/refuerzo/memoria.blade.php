@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Atención y concentración</div>
+                <div class="card-header">Memoria</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -16,6 +16,10 @@
 
                     <h1 align="center"><span class="badge badge-secondary">MEMORIA.</span></h1>
                     <br>
+                    <center>
+                    <img src="/img/memoria.jpg" class="img-thumbnail"  alt="imagen inicial">
+                    </cemter>
+                    <br>
                     <br>
                     <p class="h5">Tu memoria funciona bien con:</p>
 
@@ -25,8 +29,9 @@
                     <p class="text-justify">La <strong>música.</strong> De hecho cuando memorizas tiendes a canturrear lo que quieres que permanezca en la mente, si no lo haces te cuesta más... pero en los dos casos tu memoria sigue siendo la misma.</p>
 
                     <br>
-                    <br>
+                   
                     <p class="h5">Puedes utilizar las siguientes téncicas:</p>
+                    <center>
                     <!-- Button trigger modal -->
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
                             Mostrar Repetición
@@ -83,7 +88,7 @@
                             </div>
                             </div>
 
-
+                            
                             <!-- Button trigger modal -->
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#acros">
                             Mostrar acrósticos
@@ -165,9 +170,47 @@
                                 </div>
                             </div>
                             </div>
+                            </center>
+                            <br>
+                            <br>
+
+                            <p class="h5 colorparrafo" align="center"><strong>EL REPASO Y EL RECUERDO... MÁS IMPORTANTES QUE EL ESTUDIO PROPIAMENTE DICHO</p><strong>
+                            <br>
+                            <div class="card">
+                                <div class="card-body justificar">
+                                - Es casi más importante el repaso y el recuerdo que el estudio. El <strong>repaso</strong> consiste en releer lo aprendido y el <strong>recuerdo</strong> en hacer un esfuerzo de memoria durante unos minutos para recordarlo o recordar, al menos, los puntos principales.
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body justificar">
+                                - La memoria funciona siguiendo ciclos, sube hasta que empieza a bajar y si en esta bajada no la frenamos borra informaciones. Si la frenamos y hacemos un recuerdo entonces sube hasta más arriba que al principio cada una de esas veces que recordamos o repasamos. Los ciclos son : al día siguiente, a los tres días, a la semana siguiente, a las tres semanas, al mes siguiente, a los tres meses... No es necesario ser tan rígido repasando pero sí que sirva de orientación.
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body justificar">
+                               - Primero se intenta recordar y si algo de lo que deseábamos retener nos falla, entonces lo repasamos releyendo lo estudiado.
+                                </div>
+                            </div>
 
 
+                            <div class="card">
+                                <div class="card-body justificar">
+                               - Esta parte debe estar dentro de nuestra planificación de estudio para exámenes u otras pruebas.
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body justificar">
+                               - Con los recuerdos y los repasos los conocimientos se van consolidando y acaban convirtiéndose en parte de nosotras y nosotros, nos empiezan a cambiar... y para eso sirve a fin de cuentas el aprendizaje, para cambiar un poquito cada vez que aprendemos.
+                                </div>
+                            </div>
                             
+
+
+
+
 
 
                 </div>
