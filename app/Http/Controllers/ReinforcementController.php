@@ -15,4 +15,7 @@ class ReinforcementController extends Controller
     public function memoria(){
         return view('refuerzo.memoria');
     }
+    public function lectura(){
+        return view('refuerzo.lectura');
+    }
 }
