@@ -18,4 +18,9 @@ class ReinforcementController extends Controller
     public function lectura(){
         return view('refuerzo.lectura');
     }
+
+    public function concentracion()
+    {
+        return view('refuerzo.sintesis');
+    }
 }
