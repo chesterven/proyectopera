@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">Memoria</div>
+                <div class="card-header">MEMORIA</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <h1 align="center"><span class="badge badge-secondary">MEMORIA.</span></h1>
+                    <h1 align="center"><span class="badge badge-secondary">MEMORIA</span></h1>
                     <br>
                     <center>
                     <img src="/img/memoria.jpg" class="img-thumbnail"  alt="imagen inicial">

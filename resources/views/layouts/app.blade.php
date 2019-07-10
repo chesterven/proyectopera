@@ -42,11 +42,14 @@
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="">
+                            <a class="dropdown-item" href="{{url('/refuerzo/lectura')}}">
                                     Lectura
                                 </a>
-                                <a class="dropdown-item" href="">
-                                    Mapa conceptual
+                                <a class="dropdown-item" href="{{url('/refuerzo/concentracion')}}">
+                                    Atención y concentración
+                                </a>
+                                <a class="dropdown-item" href="{{url('/refuerzo/memoria')}}">
+                                    Memoria
                                 </a>
                             </div>
                         </li>
