@@ -50,8 +50,8 @@
                                 </a>
                             </div>
                         </li>
-                        
-               
+
+
                     <li class="nav-item navegacion-item">
                         <a class="nav-link" href="{{url('/home')}}">Consejos</a>
                     </li>
@@ -59,9 +59,9 @@
                         <a class="nav-link" href="{{url('/home')}}">Comentarios</a>
                     </li>
                     @endauth
-                    @endif 
+                    @endif
                 </ul>
-                
+
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
