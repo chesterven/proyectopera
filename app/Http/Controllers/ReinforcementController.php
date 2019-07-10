@@ -11,4 +11,8 @@ class ReinforcementController extends Controller
     {
         return view('refuerzo.atencion');
     }
+
+    public function memoria(){
+        return view('refuerzo.memoria');
+    }
 }

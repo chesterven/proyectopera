@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/refuerzo/concentracion', 'ReinforcementController@concentracion')->name('refuerzo.atencion');
+Route::get('/refuerzo/memoria', 'ReinforcementController@memoria')->name('refuerzo.memoria');

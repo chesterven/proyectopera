@@ -43,7 +43,7 @@
                       </h6>
                       <p class="text-justify">- Identifica el alcance de tu concentración, es el tiempo que puedes dedicar a una tarea sin perder la concentración.</p>
 
-                     <center> <div class="card bg-light mb-3" style="max-width: 50rem;" >
+                     <center> <div class="card bg-light mb-3" style="max-width: 70rem;" >
                         <div class="card-header">BREVE PERO DULCE</div>
                         <div class="card-body">
                           <h5 class="card-title">Tiempos cortos, concentracion muy alta</h5>
@@ -54,8 +54,8 @@
 
                         </div>
                       </div>
-                      <div class="card text-white bg-dark mb-3" style="max-width: 50rem;">
-                        <div class="card-header">COME LAS VERDURAS ANTES DEL POSTRE</div>
+                      <div class="card bg-light mb-3" style="max-width: 70rem;">
+                        <div class="card-header colocard">COME LAS VERDURAS ANTES DEL POSTRE</div>
                         <div class="card-body">
                          
                           <p class="card-text">Cuando sientas que disminuye tu concentración establece un objetivo limitado, concreto: una página más, dos ejercicios más, etc. Si al alcanzar este objetivo ya has recuperado la concentración, aprovecha y sigue, si no es así, déjalo al alcanzarlo.</p>
@@ -63,7 +63,7 @@
                         </div>
                       </div>
                       
-                      <div class="card bg-light mb-3" style="max-width: 50rem;" >
+                      <div class="card bg-light mb-3" style="max-width: 70rem;" >
                         <div class="card-header">EL MÉTODO DEL NSA/HAC</div>
                         <div class="card-body">
                           <h5 class="card-title">( ¡No te sientes ahí, haz algo!)</h5>
