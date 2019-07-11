@@ -46,6 +46,8 @@
                      
                       <p class="text-justify">A modo de orientación, vamos a proponer un ejercicio para reflexionar sobre un tema que tal vez no nos hayamos planteado nunca: ¿cuál es mi velocidad lectora?</p>
                        <p class="text-justify">Lee a continuación el texto, controlando el momento en que empiezas y acabas:</p>
+                       <br>
+                      
                       <div class="card bg-light mb-3" style="max-width: 70rem;">
                         <div class="card-header colocard"><strong>¿Cuál es mi velocidad lectora?</strong></div>
                         <div class="card-body justificar">
@@ -68,9 +70,19 @@
                                                     <div align="right">
                                                     <p class="card-text">(Jostein Gaarder, El misterio del solitario)</p>
                                                     </div>
-                          
                         </div>
                       </div>
+                      <p class="text-justify">¿Cuánto tiempo has tardado en leerlo?</p>
+                      <p class="text-justify">Considerando que las palabras leídas son 392, realiza el siguiente cálculo:</p>
+
+                      <center>
+                    <img src="/img/baremo.png" class="img-thumbnail"  alt="imagen inicial">
+                    </cemter>
+                    <br>
+                    <br>
+                    <p class="text-justify">Es evidente que nuestra velocidad lectora variará dependiendo de la dificultad del texto. lo realmente importante es haber logrado la comprensión del texto pese a la dificultad que entrañan el vocabulario y la estructura gramatical de este segundo ejemplo. De nada sirve tener una velocidad lectora muy alta si no se obtienen las ideas principales o, por lo menos, si tras la lectura no reparamos en aquellas lagunas que deberán ser solucionadas para poder llegar a la completa comprensión del texto.</p>
+
+
                       
                       
                       
