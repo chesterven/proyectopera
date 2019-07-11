@@ -22,3 +22,5 @@ Route::get('/refuerzo/concentracion', 'ReinforcementController@concentracion')->
 Route::get('/refuerzo/memoria', 'ReinforcementController@memoria')->name('refuerzo.memoria');
 Route::get('/refuerzo/lectura', 'ReinforcementController@lectura')->name('refuerzo.lectura');
 Route::get('/refuerzo/sintesis', 'ReinforcementController@sintesis')->name('refuerzo.sintesis');
+Route::get('/consejos', 'ReinforcementController@consejos')->name('consejos');
+

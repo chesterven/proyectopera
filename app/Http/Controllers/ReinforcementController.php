@@ -23,4 +23,10 @@ class ReinforcementController extends Controller
     {
         return view('refuerzo.sintesis');
     }
+
+    public function consejos()
+    {
+        return view('consejos');
+    }
+    
 }
