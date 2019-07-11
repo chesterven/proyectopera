@@ -13,13 +13,12 @@ class CreateUserReinforcementTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_reinforcement', function (Blueprint $table) {
-            
+        Schema::create('reinforcement_user', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('user_id')->index();
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->unsignedBigInteger('reinforcement_id')->index();
             $table->foreign('reinforcement_id')->references('id')->on('reinforcements')->onDelete('cascade');
+            $table->unsignedBigInteger('user_id')->index();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->timestamps();
         });
     }
