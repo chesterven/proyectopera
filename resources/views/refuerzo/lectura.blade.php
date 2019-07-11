@@ -74,23 +74,33 @@
                       </div>
                       <p class="text-justify">¿Cuánto tiempo has tardado en leerlo?</p>
                       <p class="text-justify">Considerando que las palabras leídas son 392, realiza el siguiente cálculo:</p>
+                      <p class="text-justify">392 x 60 seg = 23520. Este número lo divides entre tu tiempo en segundos y el resultado será tu velocidad lectora por minuto.</p>
 
-                      <center>
-                    <img src="/img/baremo.png" class="img-thumbnail"  alt="imagen inicial">
-                    </cemter>
+
+
+
+<center>
+                    <img src="/img/baremo.png" class="img-thumbnail"  alt="imagen inicial"></center>
                     <br>
                     <br>
-                    <p class="text-justify">Es evidente que nuestra velocidad lectora variará dependiendo de la dificultad del texto. lo realmente importante es haber logrado la comprensión del texto pese a la dificultad que entrañan el vocabulario y la estructura gramatical de este segundo ejemplo. De nada sirve tener una velocidad lectora muy alta si no se obtienen las ideas principales o, por lo menos, si tras la lectura no reparamos en aquellas lagunas que deberán ser solucionadas para poder llegar a la completa comprensión del texto.</p>
+                    <p class="text-justify">Es evidente que nuestra velocidad lectora variará dependiendo de la dificultad del texto. Lo realmente importante es haber logrado la comprensión del texto pese a la dificultad que entrañan el vocabulario y la estructura gramatical de este segundo ejemplo. De nada sirve tener una velocidad lectora muy alta si no se obtienen las ideas principales o, por lo menos, si tras la lectura no reparamos en aquellas lagunas que deberán ser solucionadas para poder llegar a la completa comprensión del texto.</p>
 
-
+                  
+                    <p class="h5 colorparrafo"><strong>MEJORAR LA VELOCIDAD LECTORA:</strong></p>
+                      <br>
+                      <div class="card">
+                      <div class="card-body">
+                     <strong> Métodos cuyo objetivo es reducir las fijaciones </strong>
+                     <p class="text-justify">Si pensamos cómo aprendimos a leer, posiblemente muchos de nosotros recordemos aquella lectura silábica en la que al unir consonantes y vocales, por ejemplo, iban resultando sílabas que, unidas entre sí, formaban palabras. Con el tiempo y la práctica, dejamos ya de lado el que la «ele» con la «a» dijera «la», y pudimos aligerar la marcha. Llegados ya a un nivel, la lectura se realiza a través de fijaciones, que vienen a ser los movimientos de los ojos mientras leemos. Al leer efectuamos una serie de saltos sobre las líneas de textos. En cada salto abarcamos un número de palabras o incluso una frase entera si es breve.</p>
+                     <center><img src="/img/fijacion.png" class="img-thumbnail" alt="imagen inicial"></center>
                       
-                      
-                      
-                      
-                      
+                        </div>
+                      </div>
             </div>
+            
         </div>
     </div>
+</div>
 </div>
 
 <br>
