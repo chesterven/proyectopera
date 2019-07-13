@@ -45,7 +45,7 @@ class ReinforcementController extends Controller
 
       if($existe == 0){
         $refuerzo->users()->attach(auth()->user()->id,['n_ingresos'=>1]);
-        return view('refuerzo.atencion');
+        return view('refuerzo.memoria');
       }else{
         $ingresos = $refuerzo->users()->where('user_id', auth()->user()->id)->first()->pivot->n_ingresos;
         $ingresos++;
@@ -66,7 +66,7 @@ class ReinforcementController extends Controller
 
       if($existe == 0){
         $refuerzo->users()->attach(auth()->user()->id,['n_ingresos'=>1]);
-        return view('refuerzo.atencion');
+        return view('refuerzo.lectura');
       }else{
         $ingresos = $refuerzo->users()->where('user_id', auth()->user()->id)->first()->pivot->n_ingresos;
         $ingresos++;
@@ -88,7 +88,7 @@ class ReinforcementController extends Controller
   
         if($existe == 0){
           $refuerzo->users()->attach(auth()->user()->id,['n_ingresos'=>1]);
-          return view('refuerzo.atencion');
+          return view('refuerzo.sintesis');
         }else{
           $ingresos = $refuerzo->users()->where('user_id', auth()->user()->id)->first()->pivot->n_ingresos;
           $ingresos++;
