@@ -19,7 +19,7 @@ class ReinforcementSeeder extends Seeder
 
         Reinforcement::create([
             
-            'nombre'=> 'Compresión y atención',
+            'nombre'=> 'Comprensión y atención',
         ]);
 
         Reinforcement::create([

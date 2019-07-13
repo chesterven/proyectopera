@@ -17,7 +17,7 @@ class User extends Authenticatable
      * @var array
      */
     public function reinforcements(){
-        return $this->belongsToMany(Reinforcement::class);
+        return $this->belongsToMany(Reinforcement::class)->withPivot('n_ingresos');
     }
     
     protected $fillable = [

@@ -24,3 +24,4 @@ Route::get('/refuerzo/lectura', 'ReinforcementController@lectura')->name('refuer
 Route::get('/refuerzo/sintesis', 'ReinforcementController@sintesis')->name('refuerzo.sintesis');
 Route::get('/consejos', 'ReinforcementController@consejos')->name('consejos');
 
+Route::get('/accesos', 'ReinforcementController@accesos')->name('accesos');

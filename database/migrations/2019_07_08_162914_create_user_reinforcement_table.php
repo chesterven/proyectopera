@@ -19,6 +19,7 @@ class CreateUserReinforcementTable extends Migration
             $table->foreign('reinforcement_id')->references('id')->on('reinforcements')->onDelete('cascade');
             $table->unsignedBigInteger('user_id')->index();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->integer('n_ingresos');
             $table->timestamps();
         });
     }

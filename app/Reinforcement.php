@@ -9,7 +9,7 @@ class Reinforcement extends Model
     //
 
     public function users(){
-        return $this->belongsToMany(User::class);
+        return $this->belongsToMany(User::class)->withPivot('n_ingresos');
     }
     protected $fillable = [
         'nombre',

@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-14">
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-header">¡Consejos!</div>
 
@@ -30,13 +30,14 @@
                           <div class="card-body justificar">
                            Otra forma muy práctica de organizarse las tareas es utilizando aplicaciones gratuitas que dispongan de calendarios en el que puedas agregar los horarios de clase, asi como las fechas de entrega de examenes y guardar las asignaturas lo que ayuda a identificar las actividades. Te compartimos las siguientes opciones:
                             <br>
+                            <br>
                             
                             
                             <div class="row mx-md-n3">
                             
                             
                             <div class="col px-md-5"><div class="p-2 border bg-light">
-                            <div class="card" style="width: 27rem;">
+                            <div class="card" style="width: 25rem;">
                                 <div class="card-body">
                                     <h5 class="card-title">Agenda Escolar</h5>
                                    
