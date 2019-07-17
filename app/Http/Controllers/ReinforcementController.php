@@ -108,6 +108,12 @@ class ReinforcementController extends Controller
         $usuarios = User::all();
         return view('mostrarAccesos')->with('usuarios',$usuarios);
     }
+
+   public function detalleAcceso($id){
+    $usuario = User::find($id);
+    //dd($usuario->reinforcements()->first()->nombre);
+     return view('detalleAccesos')->with('usuario',$usuario);
+   }
     
     
 }

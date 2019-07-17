@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">¡Registro de accesos!</div>
+                <div class="card-header">¡Listado usuarios!</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,9 +14,9 @@
                         </div>
                     @endif
                    
-                    <h1 align="center"><span class="badge badge-secondary">Registro de accesos</span></h1>
+                    <h1 align="center"><span class="badge badge-secondary">Listado de usuarios</span></h1>
                     <table id="users" class="table">
-                        <caption>Lista de accesos a los refuerzos.</caption>
+                        <caption>Lista de usuarios.</caption>
                         <thead>
                             <tr>
                             <th scope="col">Usuario</th>
@@ -35,7 +35,9 @@
                          
                            
                             <td>{{$usuario->email}}</td>
-                           <td>Ver detalle de accesos</th>
+                           <td><a href="{{ route('detalle.accesos',
+           ['id'=> $usuario->id])}} "
+class="btn btn-info btn-sm">Ver detalle de accesos</a></th>
                             </tr>
                             @endif
                     
