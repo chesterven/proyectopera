@@ -105,8 +105,8 @@ class ReinforcementController extends Controller
 
     public function accesos()
     {
-        $refuerzos = User::all();
-        return view('mostrarAccesos')->with('refuerzos',$refuerzos);
+        $usuarios = User::all();
+        return view('mostrarAccesos')->with('usuarios',$usuarios);
     }
     
     

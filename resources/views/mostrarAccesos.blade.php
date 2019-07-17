@@ -15,31 +15,35 @@
                     @endif
                    
                     <h1 align="center"><span class="badge badge-secondary">Registro de accesos</span></h1>
-                    <table class="table">
+                    <table id="users" class="table">
                         <caption>Lista de accesos a los refuerzos.</caption>
                         <thead>
                             <tr>
-                            <th scope="col">Refuerzo</th>
                             <th scope="col">Usuario</th>
+                            <th scope="col">Correo</th>
+                            <th scope="col">Ver accesos</th>
                             </tr>
                         </thead>
-                        @foreach ($refuerzos as $refuerzo)
-                        @if($refuerzo->name=="admin")
-                        @else
+                       
                         
                         <tbody>
+                        @foreach ($usuarios as $usuario)
+                        @if($usuario->name=="admin")
+                        @else
                             <tr>
-                            <th scope="row"> {{$refuerzo->name}}</th>
-                            @foreach($refuerzo->reinforcements as $refuerzoUsuario)
+                            <th scope="row"> {{$usuario->name}}</th>
+                         
                            
-                            <td>{{$refuerzoUsuario->nombre}}</td>
-                            @endforeach
+                            <td>{{$usuario->email}}</td>
+                           <td>Ver detalle de accesos</th>
                             </tr>
-                        </tbody>
-                       
-                        @endif
+                            @endif
                     
                     @endforeach
+                    
+                        </tbody>
+                       
+                      
                         </table>
 
                 </div>
@@ -47,9 +51,11 @@
         </div>
     </div>
 </div>
-<div class="text-center">
-
-</div>
+<script>
+            $(document).ready(function() {
+                $('#users').DataTable();         
+            });
+        </script>
 <br>
 <br>
 @endsection
