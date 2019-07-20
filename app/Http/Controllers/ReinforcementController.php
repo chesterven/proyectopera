@@ -129,5 +129,20 @@ class ReinforcementController extends Controller
      return redirect('comentarios')->with('success','Mensaje enviado.');
    }
     
+   public function mensajeAdmin($id){
+     return view('mensajeAdmin')->with('id', $id);
+   }
+
+   public function enviarMensaje(Request $request){
+
+    $data = $request->validate([
+      'asunto'=>'required',
+      'comentario'=>'required',
+      ]);
+      $usuario = User::find($request['id']);
+      Mail::to($usuario->email)->send(new \App\Mail\MensajeAdministrador($data));
+
+      return redirect('mensaje/'.$usuario->id)->with('success','Mensaje enviado.');
+   }
     
 }

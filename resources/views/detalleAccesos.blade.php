@@ -25,8 +25,11 @@
                     </li>
                    @endforeach
                     </ul>
+                    <br>
+                    <a href="{{ route('mensajeAdmin', ['id'=> $usuario->id])}} " class="btn btn-info btn-sm">Enviar mensaje a {{$usuario->name}}</a>
+                 
                 </div>
-               
+              
             </div>
            
         </div>

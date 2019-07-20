@@ -31,4 +31,7 @@ Route::get('/accesos/{id}', 'ReinforcementController@detalleAcceso')->name('deta
 Route::get('/comentarios', 'ReinforcementController@comentarios')->name('comentarios');
 
 Route::post('/comentarios/mensaje', 'ReinforcementController@mensaje')->name('mensaje');
+Route::get('/mensaje/{id}', 'ReinforcementController@mensajeAdmin')->name('mensajeAdmin');
+Route::post('/comentarios/mensajeAdmin', 'ReinforcementController@enviarMensaje')->name('enviarMensaje');
+
 
