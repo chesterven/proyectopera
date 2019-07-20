@@ -53,12 +53,15 @@
                                 <a class="dropdown-item" href="{{url('/refuerzo/memoria')}}">
                                     Memoria
                                 </a>
+                                <a class="dropdown-item" href="{{url('/refuerzo/sintesis')}}">
+                                    Síntesis
+                                </a>
                             </div>
                         </li>
 
 
                     <li class="nav-item navegacion-item">
-                        <a class="nav-link" href="{{url('/home')}}">Consejos</a>
+                        <a class="nav-link" href="{{url('/consejos')}}">Consejos</a>
                     </li>
                     <li class="nav-item navegacion-item">
                         <a class="nav-link" href="{{url('/home')}}">Comentarios</a>
