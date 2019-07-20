@@ -28,6 +28,7 @@ Route::get('/consejos', 'ReinforcementController@consejos')->name('consejos');
 Route::get('/accesos', 'ReinforcementController@accesos')->name('accesos');
 Route::get('/accesos/{id}', 'ReinforcementController@detalleAcceso')->name('detalle.accesos');
 
-Route::get('email', function(){
- Mail::to('chesterven7@gmail.com')->send(new \App\Mail\WelcomeUser(Auth()->user()->name));
-});
+Route::get('/comentarios', 'ReinforcementController@comentarios')->name('comentarios');
+
+Route::post('/comentarios/mensaje', 'ReinforcementController@mensaje')->name('mensaje');
+

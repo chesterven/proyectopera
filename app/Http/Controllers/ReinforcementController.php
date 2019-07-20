@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Reinforcement;
 use App\User;
 use \DB;
+use Illuminate\Support\Facades\Mail;
 
 class ReinforcementController extends Controller
 {
@@ -113,6 +114,17 @@ class ReinforcementController extends Controller
     $usuario = User::find($id);
     //dd($usuario->reinforcements()->first()->nombre);
      return view('detalleAccesos')->with('usuario',$usuario);
+   }
+
+   public function comentarios(){
+     return view('comentarios');
+   }
+
+   public function mensaje(Request $request){
+     $data =$request;
+     $user = ['correo'=> Auth()->user()->email,
+              'nombre'=> Auth()->user()->name];
+     Mail::to('vd16006@ues.edu.sv')->send(new \App\Mail\ComentarioUsuario($data,$user));
    }
     
     
