@@ -64,7 +64,7 @@
                         <a class="nav-link" href="{{url('/consejos')}}">Consejos</a>
                     </li>
                     <li class="nav-item navegacion-item">
-                        <a class="nav-link" href="{{url('/home')}}">Comentarios</a>
+                        <a class="nav-link" href="{{url('/comentarios')}}">Comentarios</a>
                     </li>
                     @endauth
                     @endif

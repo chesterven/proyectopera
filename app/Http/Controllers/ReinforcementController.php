@@ -125,6 +125,8 @@ class ReinforcementController extends Controller
      $user = ['correo'=> Auth()->user()->email,
               'nombre'=> Auth()->user()->name];
      Mail::to('vd16006@ues.edu.sv')->send(new \App\Mail\ComentarioUsuario($data,$user));
+
+     return redirect('comentarios')->with('success','Mensaje enviado.');
    }
     
     

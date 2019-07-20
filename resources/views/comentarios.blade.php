@@ -5,6 +5,12 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
+            <div id="app">
+
+              @include('flash-message')
+              @yield('content')
+
+            </div>
                 <div class="card-header">Envianos tu comentario</div>
 
                 <div class="card-body">
@@ -14,6 +20,7 @@
                         </div>
                     @endif
 
+                  
 
 
 <form action="/comentarios/mensaje" method="POST">
