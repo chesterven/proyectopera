@@ -25,12 +25,17 @@ Route::get('/refuerzo/lectura', 'ReinforcementController@lectura')->name('refuer
 Route::get('/refuerzo/sintesis', 'ReinforcementController@sintesis')->name('refuerzo.sintesis');
 Route::get('/consejos', 'ReinforcementController@consejos')->name('consejos');
 
+
+
+Route::get('/comentarios', 'ReinforcementController@comentarios')->name('comentarios');
+Route::post('/comentarios/mensaje', 'ReinforcementController@mensaje')->name('mensaje');
+
+//La ruta '/accesos' es la unica que solo veria el admin
+//Todas las que estan debajo de esa son solo de proceso no hay ningun enlace para acceder a ellas.
+//No se si tambien se le debe poner el middleware, yo digo que no porque desde que restringimos accesos ya se restringen todas esas 
 Route::get('/accesos', 'ReinforcementController@accesos')->name('accesos');
 Route::get('/accesos/{id}', 'ReinforcementController@detalleAcceso')->name('detalle.accesos');
 
-Route::get('/comentarios', 'ReinforcementController@comentarios')->name('comentarios');
-
-Route::post('/comentarios/mensaje', 'ReinforcementController@mensaje')->name('mensaje');
 Route::get('/mensaje/{id}', 'ReinforcementController@mensajeAdmin')->name('mensajeAdmin');
 Route::post('/comentarios/mensajeAdmin', 'ReinforcementController@enviarMensaje')->name('enviarMensaje');
 
