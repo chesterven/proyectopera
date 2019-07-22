@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use Caffeinated\Shinobi\Models\Permission;
 class PermissionsTableSeeder extends Seeder
 {
     /**
@@ -12,5 +12,15 @@ class PermissionsTableSeeder extends Seeder
     public function run()
     {
         //
+        Permission::create([
+            'name' => 'Ver los accesos',
+            'slug' => 'accesos',
+            'description' => 'Accesos',
+        ]);
+        Permission::create([
+            'name' => 'Ver los accesos detalle',
+            'slug' => 'detalle.accesos',
+            'description' => 'Accesos detalle',
+        ]);
     }
 }

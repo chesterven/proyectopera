@@ -68,6 +68,12 @@
                     </li>
                     @endauth
                     @endif
+                    @can('accesos')
+                    <li class="nav-item navegacion-item">
+                        <a class="nav-link" href="{{url('/accesos')}}">Accesos</a>
+                    </li>
+                    @endcan
+                    
                 </ul>
 
 
