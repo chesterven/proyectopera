@@ -61,16 +61,16 @@
 
 
                     <li class="nav-item navegacion-item">
-                        <a class="nav-link" href="{{url('/consejos')}}">Consejos</a>
+                        <a class="nav-link" href="{{url('/consejos')}}">&nbsp &nbspConsejos</a>
                     </li>
                     <li class="nav-item navegacion-item">
-                        <a class="nav-link" href="{{url('/comentarios')}}">Comentarios</a>
+                        <a class="nav-link" href="{{url('/comentarios')}}">&nbsp &nbspComentarios</a>
                     </li>
                     @endauth
                     @endif
                     @can('accesos')
                     <li class="nav-item navegacion-item">
-                        <a class="nav-link" href="{{url('/accesos')}}">Accesos</a>
+                        <a class="nav-link" href="{{url('/accesos')}}">&nbsp &nbspAccesos</a>
                     </li>
                     @endcan
                     
