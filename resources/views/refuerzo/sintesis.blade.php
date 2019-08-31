@@ -6,6 +6,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">Atención y concentración JEJE</div>
+                <div class="card-header">Atención y concentración otro titulo</div>
 
                 <div class="card-body">
                     @if (session('status'))
