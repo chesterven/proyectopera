@@ -14,6 +14,10 @@
                         </div>
                     @endif
 
+
+
+
+                    
                     <h1 align="center"><span class="badge badge-secondary">Consejos</span></h1>
 
                     <div id="accordion">

@@ -10,6 +10,9 @@
               @include('flash-message')
               @yield('content')
 
+
+
+              
             </div>
                 <div class="card-header">Envianos tu comentario</div>
 
